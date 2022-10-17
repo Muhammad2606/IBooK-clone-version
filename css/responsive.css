@@ -10,6 +10,15 @@
         border: 1px solid black;
         padding: 0.2rem 0.2rem;
     }
+    .search__form .close__search{
+        position: absolute;
+        font-size: 85px;
+        z-index: 5%;
+        cursor: pointer;
+        color: red;
+        right: 5%;
+        top: -10%;
+    }
     .banner__title h1{
         margin-left: 5%;
         color: azure;
@@ -44,6 +53,14 @@
       display: none;
        
     }
+    .blog__item{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 1rem  1rem  1rem  1rem;
+      }
+      .blog__item:hover{
+        border: 0px dotted red;
+    }
     .books__content {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -63,6 +80,14 @@
     }
     .books__img:hover i{
         display: none;
+    }
+    .books__item{
+        background-color: whitesmoke;
+        padding: 1rem  1rem  1rem  1rem;
+        border-radius: 10px;
+      }
+      .books__item:hover{
+        border: 0px dotted red;
     }
     .news h2::after{
         position: absolute;
